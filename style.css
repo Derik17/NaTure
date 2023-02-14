@@ -14,10 +14,6 @@ body {
     background-color: antiquewhite;
 }
 
-a{
-    text-decoration: none;
-}
-
 .primeiraparte{ 
     width:100vw;
     height:100vh; 
@@ -147,11 +143,15 @@ a{
     gap: 60px; 
 }
 
+a { 
+    color: inherit; 
+} 
+
 .logbutton {
     cursor: pointer;
     padding:15px;
     background-color: rgba(0, 163, 109,0.1);
-    color:rgb(250, 235, 215);
+    color:rgb(255, 243, 243);
     width:150px;
     border-radius: 15px;
     border: solid 1px;
@@ -171,7 +171,7 @@ a{
     cursor: pointer;
     padding:15px;
     background-color: transparent;
-    color: antiquewhite;
+    color: rgb(250, 235, 215);
     width:150px;
     border-radius: 15px;
     border: solid 1px;
